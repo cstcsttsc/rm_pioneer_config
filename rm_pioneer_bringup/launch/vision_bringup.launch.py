@@ -17,7 +17,7 @@ def generate_launch_description():
     # params file path
     params_file = os.path.join(
         get_package_share_directory('rm_pioneer_bringup'), 'config', 'params.yaml')
-    camera_info_url = 'package://rm_pioneer_vision/config/camera_info.yaml'
+    camera_info_url = 'package://rm_pioneer_bringup/config/camera_info.yaml'
 
     # robot_description
     robot_description = Command(['xacro ', os.path.join(
