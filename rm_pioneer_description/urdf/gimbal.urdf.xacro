@@ -69,7 +69,7 @@
   <link name="shooter_link" />
 
   <joint name="shooter_joint" type="fixed">
-    <origin xyz="0 0 0.137" rpy="0 0 0" />
+    <origin xyz="0.0032818 0 0.097945" rpy="0 0 0" />
     <parent link="base_link" />
     <child link="shooter_link" />
   </joint>

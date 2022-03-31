@@ -7,20 +7,20 @@
     flip_image: true
 
     rgb_gain:
-      b: 110
+      b: 100
       g: 95
-      r: 120
+      r: 125
 
 /armor_detector:
   ros__parameters:
     use_depth: false
     subscribe_compressed: false
 
-    min_lightness: 170
+    min_lightness: 145
 
     light:
       max_angle: 40.0
-      max_ratio: 0.3
+      max_ratio: 0.4
       min_ratio: 0.1
 
     armor:
@@ -30,7 +30,7 @@
       min_light_ratio: 0.6
       max_large_center_distance: 5.0
       min_large_center_distance: 3.2
-      max_small_center_distance: 3.1
+      max_small_center_distance: 3.2
       min_small_center_distance: 0.8
 
     number_classifier:
@@ -43,4 +43,4 @@
     tracker:
       max_match_distance: 0.2
       tracking_threshold: 5
-      lost_threshold: 5
+      lost_threshold: 25

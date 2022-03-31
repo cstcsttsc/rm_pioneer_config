@@ -45,12 +45,12 @@ def generate_launch_description():
                     }],
                     extra_arguments=[{'use_intra_process_comms': True}]),
 
-                ComposableNode(
-                    package='armor_detector',
-                    plugin='rm_auto_aim::RgbDetectorNode',
-                    name='armor_detector',
-                    parameters=[detector_params, {'debug': False}],
-                    extra_arguments=[{'use_intra_process_comms': True}])
+                 ComposableNode(
+                     package='armor_detector',
+                     plugin='rm_auto_aim::RgbDetectorNode',
+                     name='armor_detector',
+                     parameters=[detector_params, {'debug': False}],
+                     extra_arguments=[{'use_intra_process_comms': True}])
         ],
         output='screen',
     )
