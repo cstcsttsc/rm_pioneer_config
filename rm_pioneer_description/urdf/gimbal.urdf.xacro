@@ -14,7 +14,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/yaw_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/yaw_link.stl" />
             </geometry>
             <material name="black">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -23,7 +23,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/yaw_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/yaw_link.stl" />
             </geometry>
         </collision>
     </link>
@@ -44,7 +44,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/pitch_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/pitch_link.stl" />
             </geometry>
             <material name="gray">
                 <color rgba="0.75294 0.75294 0.75294 1" />
@@ -53,7 +53,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/pitch_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/pitch_link.stl" />
             </geometry>
         </collision>
     </link>
@@ -83,7 +83,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/camera_base_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/camera_base_link.stl" />
             </geometry>
             <material name="cyan">
                 <color rgba="0.3 0.7 0.8 1"/>
@@ -92,7 +92,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/hero/camera_base_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/camera_base_link.stl" />
             </geometry>
         </collision>
     </link>
