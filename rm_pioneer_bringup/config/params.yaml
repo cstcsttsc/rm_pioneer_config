@@ -33,11 +33,9 @@
       max_small_center_distance: 3.2
       min_small_center_distance: 0.8
 
-    number_classifier:
-      height_factor: 2.0
-      large_width_factor: 0.4
-      small_width_factor: 0.56
-      similarity_threshold: 0.5
+    classifier:
+      similarity_threshold: 0.7
+
 /armor_processor:
   ros__parameters:
     tracker:
