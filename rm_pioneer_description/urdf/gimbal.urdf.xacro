@@ -14,7 +14,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/yaw_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/yaw_link.stl" />
             </geometry>
             <material name="">
                 <color rgba="0.89804 0.91765 0.92941 1" />
@@ -23,7 +23,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/yaw_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/yaw_link.stl" />
             </geometry>
         </collision>
     </link>
@@ -44,7 +44,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/pitch_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/pitch_link.stl" />
             </geometry>
             <material name="">
                 <color rgba="0.89804 0.91765 0.92941 1" />
@@ -53,7 +53,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/pitch_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/pitch_link.stl" />
             </geometry>
         </collision>
     </link>
@@ -83,7 +83,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/camera_base_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/camera_base_link.stl" />
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1" />
@@ -92,7 +92,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://rm_pioneer_description/meshes/guard/camera_base_link.stl" />
+                <mesh filename="package://rm_pioneer_description/meshes/camera_base_link.stl" />
             </geometry>
         </collision>
     </link>
