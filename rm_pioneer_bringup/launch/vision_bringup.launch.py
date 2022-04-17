@@ -25,7 +25,7 @@ def generate_launch_description():
 
     # load params for composable node
     with open(params_file, 'r') as f:
-        camera_params = yaml.safe_load(f)['/mv_camera']['ros__parameters']
+        camera_params = yaml.safe_load(f)['/hik_camera']['ros__parameters']
     with open(params_file, 'r') as f:
         detector_params = yaml.safe_load(f)['/armor_detector']['ros__parameters']
 
@@ -36,21 +36,21 @@ def generate_launch_description():
         executable='component_container',
         composable_node_descriptions=[
                 ComposableNode(
-                    package='mindvision_camera',
-                    plugin='mindvision_camera::MVCameraNode',
-                    name='mv_camera',
+                    package='hik_camera',
+                    plugin='hik_camera::HikCameraNode',
+                    name='hik_camera',
                     parameters=[camera_params, {
                         'camera_info_url': camera_info_url,
                         'use_sensor_data_qos': False,
                     }],
                     extra_arguments=[{'use_intra_process_comms': True}]),
 
-                ComposableNode(
-                    package='armor_detector',
-                    plugin='rm_auto_aim::RgbDetectorNode',
-                    name='armor_detector',
-                    parameters=[detector_params, {'debug': False}],
-                    extra_arguments=[{'use_intra_process_comms': True}])
+                 ComposableNode(
+                     package='armor_detector',
+                     plugin='rm_auto_aim::RgbDetectorNode',
+                     name='armor_detector',
+                     parameters=[detector_params, {'debug': False}],
+                     extra_arguments=[{'use_intra_process_comms': True}])
         ],
         output='screen',
     )
