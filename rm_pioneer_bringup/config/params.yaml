@@ -2,7 +2,7 @@
   ros__parameters:
     camera_name: narrow_stereo
 
-    gain: 12
+    gain: 12.0
     exposure_time: 8000
 
 /armor_detector:
