@@ -3,9 +3,7 @@ Panels:
     Help Height: 0
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /RobotModel1/Links1
-        - /RobotModel1/Links1/camera_base_link1
+      Expanded: ~
       Splitter Ratio: 0.5
     Tree Height: 186
   - Class: rviz_common/Selection
@@ -70,7 +68,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
         camera_base_link:
-          Alpha: 0.20000000298023224
+          Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
@@ -132,7 +130,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /debug/repub
+        Value: /repub
       Value: true
       Visibility:
         Grid: true
@@ -201,10 +199,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.285398006439209
+      Pitch: 0.33039796352386475
       Target Frame: pitch_link
       Value: Orbit (rviz_default_plugins)
-      Yaw: 2.7403981685638428
+      Yaw: 2.6303977966308594
     Saved: ~
 Window Geometry:
   Camera:
