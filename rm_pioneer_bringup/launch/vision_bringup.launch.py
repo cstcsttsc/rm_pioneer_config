@@ -63,11 +63,11 @@ def generate_launch_description():
         parameters=[params_file, {'debug': False}],
     )
 
-    rm_serial_launch = IncludeLaunchDescription(
+    control_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory('rm_serial_driver'),
-                'launch', 'serial_driver.launch.py')))
+                get_package_share_directory('rm_pioneer_control_bringup'),
+                'launch', 'bringup.launch.py')))
 
     robot_state_publisher = Node(
         package='robot_state_publisher',
@@ -79,6 +79,6 @@ def generate_launch_description():
     return LaunchDescription([
         camera_detector_container,
         processor_node,
-        rm_serial_launch,
+        control_launch,
         robot_state_publisher,
     ])
