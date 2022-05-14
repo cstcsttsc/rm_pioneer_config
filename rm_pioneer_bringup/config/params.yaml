@@ -2,8 +2,8 @@
   ros__parameters:
     camera_name: mv_camera
 
-    analog_gain: 40
-    exposure_time: 6000
+    analog_gain: 50
+    exposure_time: 8000
     gamma: 100
 
     rgb_gain:
@@ -18,11 +18,13 @@
     use_depth: false
     subscribe_compressed: false
 
-    min_lightness: 170
+    detect_color: 0
+
+    min_lightness: 110
 
     light:
       max_angle: 40.0
-      max_ratio: 0.3
+      max_ratio: 0.42
       min_ratio: 0.1
 
     armor:
@@ -30,11 +32,13 @@
       max_center_ratio: 1.6
       min_center_ratio: 0.4
       min_light_ratio: 0.6
+      max_large_center_distance: 5.0
+      min_large_center_distance: 3.2
+      max_small_center_distance: 3.2
+      min_small_center_distance: 0.8
 
     number_classifier:
-      height_ratio: 1.1
-      weight_ratio: 0.4
-      confidence_threshold: 0.7
+      threshold: 0.9
 
 /armor_processor:
   ros__parameters:
