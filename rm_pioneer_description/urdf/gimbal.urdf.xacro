@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<robot name="guard_bttom"
+<robot name="guard_top"
     xmlns:xacro="http://ros.org/wiki/xacro">
 
   <link name="base_link"/>
 
-  <link name="bottom_base_link"/>
+  <link name="top_base_link"/>
 
-  <joint name="bottom_base_joint" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0" />
+  <joint name="top_bottom_joint" type="fixed">
+    <origin xyz="0 0 0.209" rpy="0 0 0" />
     <parent link="base_link" />
-    <child link="bottom_base_link" />
+    <child link="top_base_link" />
   </joint>
 
-  <link name="bottom_yaw_link">
+  <link name="top_yaw_link">
     <inertial>
-      <origin xyz="-0.0443085568784272 -0.00755273683481369 -0.09443732821797" rpy="0 0 0" />
-      <mass value="1.62363809915166" />
-      <inertia ixx="0.00214196322954316" ixy="2.56586721106187E-05" ixz="-1.90374771835412E-05" iyy="0.00154114788721119" iyz="6.91599863729838E-07" izz="0.00172996198305153" />
+      <origin xyz="4.99730350969618E-05 -0.0371160196675906 0.2981641393412612" rpy="0 0 0" />
+      <mass value="0.947656687074583" />
+      <inertia ixx="0.000784086432942086" ixy="-3.16001756196907E-06" ixz="1.03582436091895E-07" iyy="0.000601598563322982" iyz="1.02619280734409E-06" izz="0.00109566735411014" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_yaw_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -31,28 +31,28 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_yaw_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
 
-  <joint name="bottom_yaw_joint" type="continuous">
+  <joint name="top_yaw_joint" type="continuous">
     <origin xyz="0 0 0" rpy="0 0 0" />
-    <parent link="bottom_base_link" />
-    <child link="bottom_yaw_link" />
+    <parent link="top_base_link" />
+    <child link="top_yaw_link" />
     <axis xyz="0 0 1" />
   </joint>
 
-  <link name="bottom_pitch_link">
+  <link name="top_pitch_link">
     <inertial>
-      <origin xyz="0.0912796353872896 0.000898936314618876 -0.00877135701158849" rpy="0 0 0" />
-      <mass value="0.692498782795045" />
-      <inertia ixx="0.000511334765863622" ixy="1.63617689175487E-05" ixz="9.01841392444192E-07" iyy="0.000543152340173797" iyz="-6.89794046837392E-06" izz="0.000914293436918936" />
+      <origin xyz="0.176021881831549 0.00064155983644746 0.2906588578976584" rpy="0 0 0" />
+      <mass value="5.41927484176401" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_pitch_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -61,38 +61,38 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_pitch_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
 
-  <joint name="bottom_pitch_joint" type="revolute">
-    <origin xyz="0 0 -0.067499999999998" rpy="0 0 0" />
-    <parent link="bottom_yaw_link" />
-    <child link="bottom_pitch_link" />
+  <joint name="top_pitch_joint" type="revolute">
+    <origin xyz="0 0 0.168199999999992" rpy="0 -0.0349965560561934 0" />
+    <parent link="top_yaw_link" />
+    <child link="top_pitch_link" />
     <axis xyz="0 1 0" />
     <limit lower="-0.6" upper="0.5" effort="1.2" velocity="31"/>
   </joint>
 
-  <link name="bottom_shooter_link" />
+  <link name="top_shooter_link" />
 
-  <joint name="bottom_shooter_joint" type="fixed">
-    <origin xyz="0 0 0.107499999999998" rpy="0 0 0" />
+  <joint name="top_shooter_joint" type="fixed">
+    <origin xyz="0 0 0.168199999999992" rpy="0 0 0" />
     <origin xyz="0 0 0.163" rpy="0-0.55149 0" />
-    <parent link="bottom_base_link" />
-    <child link="bottom_shooter_link" />
+    <parent link="top_base_link" />
+    <child link="top_shooter_link" />
   </joint>
 
-  <link name="bottom_camera_base_link">
+  <link name="top_camera_base_link">
     <inertial>
-      <origin xyz="-0.0123185000969551 -0.0100862832870847 3.63290364666646E-05" rpy="0 0 0" />
-      <mass value="0.150678304146307" />
-      <inertia ixx="0.000191617994215013" ixy="7.12918812268237E-08" ixz="-4.20676170520169E-09" iyy="1.72516794041148E-05" iyz="-1.98580491664331E-10" izz="0.000189769715575993" />
+      <origin xyz="-0.0225000000000001 3.46944695195361E-17 0.209" rpy="0 0 0" />
+      <mass value="0.0671107341840939" />
+      <inertia ixx="1.69723021394276E-05" ixy="3.89796965559563E-21" ixz="-7.94093388050907E-22" iyy="1.94707683734004E-05" iyz="4.45518745096134E-21" izz="1.95110373496406E-05" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_camera_base_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_camera_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1" />
@@ -101,24 +101,24 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://rm_pioneer_description/meshes/bottom_camera_base_link.STL" />
+        <mesh filename="package://rm_pioneer_description/meshes/top_camera_base_link.STL" />
       </geometry>
     </collision>
   </link>
 
-  <joint name="bottom_camera_base_joint" type="fixed">
-    <origin xyz="0.131049999997773 0.0095500000000103 -0.0625000000046924" rpy="0 0 0" />
-    <parent link="bottom_pitch_link" />
-    <child link="bottom_camera_base_link" />
+  <joint name="top_camera_base_joint" type="fixed">
+    <origin xyz="0.0866999999999996 0 0.0570000000000017" rpy="0 0 0" />
+    <parent link="top_pitch_link" />
+    <child link="top_camera_base_link" />
     <axis xyz="0 0 0" />
   </joint>
 
-  <link name="camera_color_optical_frame" />
+  <link name="top_camera_optical_frame" />
 
-  <joint name="bottom_camera_optical_joint" type="fixed">
+  <joint name="top_camera_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}" />
-    <parent link="bottom_camera_base_link" />
-    <child link="camera_color_optical_frame" />
+    <parent link="top_camera_base_link" />
+    <child link="top_camera_optical_frame" />
   </joint>
 
 </robot>
