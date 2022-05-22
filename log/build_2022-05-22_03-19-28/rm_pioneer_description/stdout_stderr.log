@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/config/rm_pioneer_config/build/rm_pioneer_description
+-- Install configuration: ""
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.launch.py
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.rviz
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_pitch_link.STL
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_yaw_link.STL
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_camera_base_link.STL
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf/gimbal.urdf.xacro
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control/guard.ros2_control.xacro
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/package_run_dependencies/rm_pioneer_description
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/parent_prefix_path/rm_pioneer_description
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.sh
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.dsv
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.sh
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.dsv
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.bash
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.sh
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.zsh
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.dsv
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.dsv
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/packages/rm_pioneer_description
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig.cmake
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig-version.cmake
+-- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.xml

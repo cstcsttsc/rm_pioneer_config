@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/root/config/rm_pioneer_config/build/rm_pioneer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /root/config/rm_pioneer_config/build/rm_pioneer_description -- -j8 -l8
+[0.053s] Invoked command in '/root/config/rm_pioneer_config/build/rm_pioneer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /root/config/rm_pioneer_config/build/rm_pioneer_description -- -j8 -l8
+[0.087s] Invoking command in '/root/config/rm_pioneer_config/build/rm_pioneer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /root/config/rm_pioneer_config/build/rm_pioneer_description
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.launch.py
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.rviz
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_pitch_link.STL
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_yaw_link.STL
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/top_camera_base_link.STL
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf
+[0.096s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf/gimbal.urdf.xacro
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control/guard.ros2_control.xacro
+[0.096s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/package_run_dependencies/rm_pioneer_description
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/parent_prefix_path/rm_pioneer_description
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.sh
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.dsv
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.bash
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.sh
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.zsh
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.dsv
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.dsv
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/packages/rm_pioneer_description
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig.cmake
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig-version.cmake
+[0.097s] -- Up-to-date: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.xml
+[0.099s] Invoked command in '/root/config/rm_pioneer_config/build/rm_pioneer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /root/config/rm_pioneer_config/build/rm_pioneer_description
