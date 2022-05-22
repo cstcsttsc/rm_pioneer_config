@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/root/config/rm_pioneer_config/build/rm_pioneer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /root/config/rm_pioneer_config/rm_pioneer_description -DCMAKE_INSTALL_PREFIX=/root/config/rm_pioneer_config/install/rm_pioneer_description
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.116s] -- The CXX compiler identification is GNU 9.4.0
+[0.121s] -- Check for working C compiler: /usr/bin/cc
+[0.183s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.184s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.262s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.342s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.432s] -- Detecting CXX compile features
+[0.433s] -- Detecting CXX compile features - done
+[0.437s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.463s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.463s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.551s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.627s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.627s] -- Added test 'lint_cmake' to check CMake code style
+[0.628s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.629s] -- Added test 'xmllint' to check XML markup files
+[0.632s] -- Configuring done
+[0.634s] -- Generating done
+[0.634s] -- Build files have been written to: /root/config/rm_pioneer_config/build/rm_pioneer_description
+[0.638s] Invoked command in '/root/config/rm_pioneer_config/build/rm_pioneer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /root/config/rm_pioneer_config/rm_pioneer_description -DCMAKE_INSTALL_PREFIX=/root/config/rm_pioneer_config/install/rm_pioneer_description
+[0.641s] Invoking command in '/root/config/rm_pioneer_config/build/rm_pioneer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /root/config/rm_pioneer_config/build/rm_pioneer_description -- -j8 -l8
+[0.680s] Invoked command in '/root/config/rm_pioneer_config/build/rm_pioneer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /root/config/rm_pioneer_config/build/rm_pioneer_description -- -j8 -l8
+[0.713s] Invoking command in '/root/config/rm_pioneer_config/build/rm_pioneer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /root/config/rm_pioneer_config/build/rm_pioneer_description
+[0.721s] -- Install configuration: ""
+[0.721s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch
+[0.721s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.launch.py
+[0.721s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/launch/view_model.rviz
+[0.721s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes
+[0.721s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/pitch_link.stl
+[0.725s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/camera_base_link.stl
+[0.725s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/meshes/yaw_link.stl
+[0.727s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf
+[0.727s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/urdf/gimbal.urdf.xacro
+[0.727s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control
+[0.727s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/ros2_control/guard.ros2_control.xacro
+[0.727s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/package_run_dependencies/rm_pioneer_description
+[0.729s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/parent_prefix_path/rm_pioneer_description
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.sh
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/ament_prefix_path.dsv
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.sh
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/environment/path.dsv
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.bash
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.sh
+[0.730s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.zsh
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/local_setup.dsv
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.dsv
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/ament_index/resource_index/packages/rm_pioneer_description
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig.cmake
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/cmake/rm_pioneer_descriptionConfig-version.cmake
+[0.731s] -- Installing: /root/config/rm_pioneer_config/install/rm_pioneer_description/share/rm_pioneer_description/package.xml
+[0.734s] Invoked command in '/root/config/rm_pioneer_config/build/rm_pioneer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /root/config/rm_pioneer_config/build/rm_pioneer_description
