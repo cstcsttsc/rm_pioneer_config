@@ -9,7 +9,6 @@ install(DIRECTORY
         launch
         meshes
         urdf
-        ros2_control
         DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
