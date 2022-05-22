@@ -21,7 +21,7 @@ def generate_launch_description():
             package='image_transport',
             executable='republish',
             arguments=['compressed', 'raw'],
-            remappings=[('in/compressed', '/debug/final_img/compressed'),
-                        ('out', '/debug/repub')],
+            remappings=[('in/compressed', '/final_img/compressed'),
+                        ('out', '/repub')],
         )
     ])
